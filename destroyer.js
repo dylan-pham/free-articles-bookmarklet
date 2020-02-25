@@ -72,7 +72,7 @@ javascript:(function(){
             }).then(
                 response => response.json()
             ).then(
-                json => window.open(`https://outline.com/${json.link}`)
+                json => window.location = `https://outline.com/${json.link}`
             );
         }, {
             "node-fetch": 1
