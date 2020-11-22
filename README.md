@@ -1,8 +1,8 @@
-# paywall-destroyer-bookmarklet
-JS bookmarklet to bypass paywall on any news website
+# free-articles-bookmarklet
+JS bookmarklet to read any news article for free
 
-resources:
-- outline.com --> to create reader-friendly version of article (and to bypass paywall)
+resources used:
+- outline.com --> to create reader-friendly version of article (and to bypass any paywalls)
 - Bitly API (https://dev.bitly.com/v4_documentation.html#section/Migrating-from-V3) --> to shorten input URLs
 - browserify (http://browserify.org) --> to run node modules in browser
 - node-fetch (https://www.npmjs.com/package/node-fetch) --> to send POST request
